@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PONG</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="draw(); Score();	" onkeydown="trueKey(event.keyCode)" onkeyup="falseKey(event.keyCode)">
+	
+	<canvas id="monCanvas" height="948px" width="1500px"></canvas>
+	<canvas id="jeu" height="948px" width="1500px"></canvas>
+
+	<script type="text/javascript" src="pong.js"></script>
+	<table>	
+		<tr><td><input id="animation" type="button" value="Jouer" onclick="time();newGame();">
+		</td></tr>
+	</table>
+
+</body>
+</html> 
